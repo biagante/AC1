@@ -5,7 +5,7 @@ str2:	.space 50
 str3: 	.asciiz "Computadores I"
 str4:	.asciiz "\n"
 	.text
-	.globl main
+	#.globl main
 
 main:	addiu $sp, $sp, -4
 	sw $ra, 0($sp)

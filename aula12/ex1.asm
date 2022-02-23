@@ -179,6 +179,6 @@ print_student:
 	li $v0, print_string
 	syscall			# print_string(("\nNota: ");
 	
-	l.d $f12, offset_g($t0)
+	l.s $f12, offset_g($t0)
 	li $v0, print_float
 	syscall			# print_float(stg.grade);
